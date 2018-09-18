@@ -1,0 +1,11 @@
+<button class="btn btn-primary" (click)="get1()">Click 1</button>&nbsp;
+<button class="btn btn-primary"(click)="get2()">Click 2</button>&nbsp;
+<button class="btn btn-primary"(click)="get3()">Click 3</button>&nbsp;
+<br>
+<br>
+<br>
+<app-shared *ngIf="statusArea==='first'"[dataObject]='newObject'></app-shared>
+<app-shared *ngIf="statusArea==='second'"[dataObject]='newObject'></app-shared>
+<app-shared *ngIf="statusArea==='third'"[dataObject]='newObject'></app-shared>
+<!-- <app-shared></app-shared>
+<app-shared></app-shared> -->
